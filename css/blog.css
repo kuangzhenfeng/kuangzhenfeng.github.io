@@ -152,6 +152,17 @@ h6, .h6 {
   margin-bottom: 20px;
   color: #999;
 }
+ 
+/*
+ * music and video		<!--自己加-->
+ */ 
+.music{
+	text-align: center;
+}
+.video{
+	text-align: center;
+} 
+
 
 
 /*
