@@ -1,0 +1,449 @@
+
+<!DOCTYPE HTML>
+<html lang="zh" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>ÈÄâÊã©ÊéíÂ∫è ¬∑ JS-Sorting-Algorithm</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="author" content="hustcc">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css" tppabs="https://sort.hust.cc/gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-comment/plugin.css" tppabs="https://sort.hust.cc/gitbook/gitbook-plugin-comment/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css" tppabs="https://sort.hust.cc/gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css" tppabs="https://sort.hust.cc/gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css" tppabs="https://sort.hust.cc/gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="3.insertionSort.html" />
+    
+    
+    <link rel="prev" href="1.bubbleSort.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Ëº∏ÂÖ•‰∏¶ÊêúÂ∞ã" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="javascript:if(confirm('https://www.gitbook.com/book/hustcc/js-sorting-algorithm  \n\n∏√Œƒº˛Œﬁ∑®”√ Teleport Ultra œ¬‘ÿ, “ÚŒ™ À¸ «“ª∏ˆ”ÚªÚ¬∑æ∂Õ‚≤ø±ª…Ë÷√Œ™À¸µƒ∆Ù ºµÿ÷∑µƒµÿ÷∑°£  \n\nƒ„œÎ‘⁄∑˛ŒÒ∆˜…œ¥Úø™À¸?'))window.location='https://www.gitbook.com/book/hustcc/js-sorting-algorithm'" tppabs="https://www.gitbook.com/book/hustcc/js-sorting-algorithm" target="_blank" class="custom-link">JS-Sorting-Algorithm</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="index.htm" tppabs="https://sort.hust.cc/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="1.bubbleSort.html">
+            
+                <a href="1.bubbleSort.html" tppabs="https://sort.hust.cc/1.bubbleSort.html">
+            
+                    
+                    ÂÜíÊ≥°ÊéíÂ∫è
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="2.selectionSort.html">
+            
+                <a href="2.selectionSort.html" tppabs="https://sort.hust.cc/2.selectionSort.html">
+            
+                    
+                    ÈÄâÊã©ÊéíÂ∫è
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="3.insertionSort.html">
+            
+                <a href="3.insertionSort.html" tppabs="https://sort.hust.cc/3.insertionSort.html">
+            
+                    
+                    ÊèíÂÖ•ÊéíÂ∫è
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="4.shellSort.html">
+            
+                <a href="4.shellSort.html" tppabs="https://sort.hust.cc/4.shellSort.html">
+            
+                    
+                    Â∏åÂ∞îÊéíÂ∫è
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="5.mergeSort.html">
+            
+                <a href="5.mergeSort.html" tppabs="https://sort.hust.cc/5.mergeSort.html">
+            
+                    
+                    ÂΩíÂπ∂ÊéíÂ∫è
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="6.quickSort.html">
+            
+                <a href="6.quickSort.html" tppabs="https://sort.hust.cc/6.quickSort.html">
+            
+                    
+                    Âø´ÈÄüÊéíÂ∫è
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="7.heapSort.html">
+            
+                <a href="7.heapSort.html" tppabs="https://sort.hust.cc/7.heapSort.html">
+            
+                    
+                    Â†ÜÊéíÂ∫è
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="8.countingSort.html">
+            
+                <a href="8.countingSort.html" tppabs="https://sort.hust.cc/8.countingSort.html">
+            
+                    
+                    ËÆ°Êï∞ÊéíÂ∫è
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="9.bucketSort.html">
+            
+                <a href="9.bucketSort.html" tppabs="https://sort.hust.cc/9.bucketSort.html">
+            
+                    
+                    Ê°∂ÊéíÂ∫è
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="10.radixSort.html">
+            
+                <a href="10.radixSort.html" tppabs="https://sort.hust.cc/10.radixSort.html">
+            
+                    
+                    Âü∫Êï∞ÊéíÂ∫è
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="javascript:if(confirm('https://www.gitbook.com/  \n\n∏√Œƒº˛Œﬁ∑®”√ Teleport Ultra œ¬‘ÿ, “ÚŒ™ À¸ «“ª∏ˆ”ÚªÚ¬∑æ∂Õ‚≤ø±ª…Ë÷√Œ™À¸µƒ∆Ù ºµÿ÷∑µƒµÿ÷∑°£  \n\nƒ„œÎ‘⁄∑˛ŒÒ∆˜…œ¥Úø™À¸?'))window.location='https://www.gitbook.com/'" tppabs="https://www.gitbook.com/" target="blank" class="gitbook-link">
+            Êú¨Êõ∏‰ΩøÁî® GitBook ÈáãÂá∫
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="..htm" tppabs="https://sort.hust.cc/." >ÈÄâÊã©ÊéíÂ∫è</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x9009;&#x62E9;&#x6392;&#x5E8F;">&#x9009;&#x62E9;&#x6392;&#x5E8F;</h1>
+<p>&#x9009;&#x62E9;&#x6392;&#x5E8F;&#x662F;&#x4E00;&#x79CD;&#x7B80;&#x5355;&#x76F4;&#x89C2;&#x7684;&#x6392;&#x5E8F;&#x7B97;&#x6CD5;&#xFF0C;&#x65E0;&#x8BBA;&#x4EC0;&#x4E48;&#x6570;&#x636E;&#x8FDB;&#x53BB;&#x90FD;&#x662F; O(n&#xB2;) &#x7684;&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#x3002;&#x6240;&#x4EE5;&#x7528;&#x5230;&#x5B83;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6570;&#x636E;&#x89C4;&#x6A21;&#x8D8A;&#x5C0F;&#x8D8A;&#x597D;&#x3002;&#x552F;&#x4E00;&#x7684;&#x597D;&#x5904;&#x53EF;&#x80FD;&#x5C31;&#x662F;&#x4E0D;&#x5360;&#x7528;&#x989D;&#x5916;&#x7684;&#x5185;&#x5B58;&#x7A7A;&#x95F4;&#x4E86;&#x5427;&#x3002;</p>
+<h2 id="1-&#x7B97;&#x6CD5;&#x6B65;&#x9AA4;">1. &#x7B97;&#x6CD5;&#x6B65;&#x9AA4;</h2>
+<ol>
+<li><p>&#x9996;&#x5148;&#x5728;&#x672A;&#x6392;&#x5E8F;&#x5E8F;&#x5217;&#x4E2D;&#x627E;&#x5230;&#x6700;&#x5C0F;&#xFF08;&#x5927;&#xFF09;&#x5143;&#x7D20;&#xFF0C;&#x5B58;&#x653E;&#x5230;&#x6392;&#x5E8F;&#x5E8F;&#x5217;&#x7684;&#x8D77;&#x59CB;&#x4F4D;&#x7F6E;</p>
+</li>
+<li><p>&#x518D;&#x4ECE;&#x5269;&#x4F59;&#x672A;&#x6392;&#x5E8F;&#x5143;&#x7D20;&#x4E2D;&#x7EE7;&#x7EED;&#x5BFB;&#x627E;&#x6700;&#x5C0F;&#xFF08;&#x5927;&#xFF09;&#x5143;&#x7D20;&#xFF0C;&#x7136;&#x540E;&#x653E;&#x5230;&#x5DF2;&#x6392;&#x5E8F;&#x5E8F;&#x5217;&#x7684;&#x672B;&#x5C3E;&#x3002;</p>
+</li>
+<li><p>&#x91CD;&#x590D;&#x7B2C;&#x4E8C;&#x6B65;&#xFF0C;&#x76F4;&#x5230;&#x6240;&#x6709;&#x5143;&#x7D20;&#x5747;&#x6392;&#x5E8F;&#x5B8C;&#x6BD5;&#x3002;</p>
+</li>
+</ol>
+<h2 id="2-&#x52A8;&#x56FE;&#x6F14;&#x793A;">2. &#x52A8;&#x56FE;&#x6F14;&#x793A;</h2>
+<p><img src="res/selectionSort.gif" tppabs="https://sort.hust.cc/res/selectionSort.gif" alt="&#x52A8;&#x56FE;&#x6F14;&#x793A;"></p>
+<h2 id="3-javascript-&#x4EE3;&#x7801;&#x5B9E;&#x73B0;">3. JavaScript &#x4EE3;&#x7801;&#x5B9E;&#x73B0;</h2>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">selectionSort</span>(<span class="hljs-params">arr</span>) </span>{
+    <span class="hljs-keyword">var</span> len = arr.length;
+    <span class="hljs-keyword">var</span> minIndex, temp;
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; len - <span class="hljs-number">1</span>; i++) {
+        minIndex = i;
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> j = i + <span class="hljs-number">1</span>; j &lt; len; j++) {
+            <span class="hljs-keyword">if</span> (arr[j] &lt; arr[minIndex]) {     <span class="hljs-comment">// &#x5BFB;&#x627E;&#x6700;&#x5C0F;&#x7684;&#x6570;</span>
+                minIndex = j;                 <span class="hljs-comment">// &#x5C06;&#x6700;&#x5C0F;&#x6570;&#x7684;&#x7D22;&#x5F15;&#x4FDD;&#x5B58;</span>
+            }
+        }
+        temp = arr[i];
+        arr[i] = arr[minIndex];
+        arr[minIndex] = temp;
+    }
+    <span class="hljs-keyword">return</span> arr;
+}
+</code></pre>
+<h2 id="4-python-&#x4EE3;&#x7801;&#x5B9E;&#x73B0;">4. Python &#x4EE3;&#x7801;&#x5B9E;&#x73B0;</h2>
+<pre><code class="lang-python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">selectionSort</span><span class="hljs-params">(arr)</span>:</span>
+    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(len(arr)<span class="hljs-number">-1</span>):
+        <span class="hljs-keyword">for</span> j <span class="hljs-keyword">in</span> range(i+<span class="hljs-number">1</span>, len(arr)):
+            <span class="hljs-keyword">if</span> arr[j] &lt; arr[i]:
+                arr[i], arr[j] = arr[j], arr[i]
+    <span class="hljs-keyword">return</span> arr
+</code></pre>
+<h2 id="5-go-&#x4EE3;&#x7801;&#x5B9E;&#x73B0;">5. Go &#x4EE3;&#x7801;&#x5B9E;&#x73B0;</h2>
+<pre><code class="lang-go"><span class="hljs-keyword">func</span> selectionSort(arr []<span class="hljs-keyword">int</span>) []<span class="hljs-keyword">int</span> {
+    length := <span class="hljs-built_in">len</span>(arr)
+    <span class="hljs-keyword">for</span> i := <span class="hljs-number">0</span>; i &lt; length<span class="hljs-number">-1</span>; i++ {
+        min := i
+        <span class="hljs-keyword">for</span> j := i + <span class="hljs-number">1</span>; j &lt; length; j++ {
+            <span class="hljs-keyword">if</span> arr[min] &gt; arr[j] {
+                min = j
+            }
+        }
+        arr[i], arr[min] = arr[min], arr[i]
+    }
+    <span class="hljs-keyword">return</span> arr
+}
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1.bubbleSort.html" tppabs="https://sort.hust.cc/1.bubbleSort.html" class="navigation navigation-prev " aria-label="Previous page: ÂÜíÊ≥°ÊéíÂ∫è">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="3.insertionSort.html" tppabs="https://sort.hust.cc/3.insertionSort.html" class="navigation navigation-next " aria-label="Next page: ÊèíÂÖ•ÊéíÂ∫è">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"ÈÄâÊã©ÊéíÂ∫è","level":"1.3","depth":1,"next":{"title":"ÊèíÂÖ•ÊéíÂ∫è","level":"1.4","depth":1,"path":"https://sort.hust.cc/3.insertionSort.md","ref":"https://sort.hust.cc/3.insertionSort.md","articles":[]},"previous":{"title":"ÂÜíÊ≥°ÊéíÂ∫è","level":"1.2","depth":1,"path":"https://sort.hust.cc/1.bubbleSort.md","ref":"https://sort.hust.cc/1.bubbleSort.md","articles":[]},"dir":"ltr"},"config":{"plugins":["comment"],"styles":{"website":"styles/website.css"/*tpa=https://sort.hust.cc/styles/website.css*/,"pdf":"styles/pdf.css"/*tpa=https://sort.hust.cc/styles/pdf.css*/,"epub":"styles/epub.css"/*tpa=https://sort.hust.cc/styles/epub.css*/,"mobi":"styles/mobi.css"/*tpa=https://sort.hust.cc/styles/mobi.css*/,"ebook":"styles/ebook.css"/*tpa=https://sort.hust.cc/styles/ebook.css*/,"print":"styles/print.css"/*tpa=https://sort.hust.cc/styles/print.css*/},"pluginsConfig":{"comment":{"highlightCommented":true},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css"/*tpa=https://sort.hust.cc/styles/website.css*/,"pdf":"styles/pdf.css"/*tpa=https://sort.hust.cc/styles/pdf.css*/,"epub":"styles/epub.css"/*tpa=https://sort.hust.cc/styles/epub.css*/,"mobi":"styles/mobi.css"/*tpa=https://sort.hust.cc/styles/mobi.css*/,"ebook":"styles/ebook.css"/*tpa=https://sort.hust.cc/styles/ebook.css*/,"print":"styles/print.css"/*tpa=https://sort.hust.cc/styles/print.css*/},"showLevel":false}},"github":"hustcc/JS-Sorting-Algorithm","theme":"default","author":"hustcc","pdf":{"pageNumbers":true,"fontSize":16,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"https://sort.hust.cc/LANGS.md","readme":"https://sort.hust.cc/README.md","glossary":"https://sort.hust.cc/GLOSSARY.md","summary":"https://sort.hust.cc/SUMMARY.md"},"variables":{},"title":"JS-Sorting-Algorithm","language":"zh","links":{"sidebar":{"JS-Sorting-Algorithm":"https://www.gitbook.com/book/hustcc/js-sorting-algorithm"},"gitbook":true},"gitbook":"*","description":"‰∏ÄÊú¨ÂÖ≥‰∫éÊéíÂ∫èÁÆóÊ≥ïÁöÑ GitBook Âú®Á∫ø‰π¶Á±ç „ÄäÂçÅÂ§ßÁªèÂÖ∏ÊéíÂ∫èÁÆóÊ≥ï„ÄãÔºå‰ΩøÁî® JavaScript & Python & Go ÂÆûÁé∞„ÄÇ"},"file":{"path":"https://sort.hust.cc/2.selectionSort.md","mtime":"2017-02-27T13:59:08.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-27T13:59:06.122Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js" tppabs="https://sort.hust.cc/gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js" tppabs="https://sort.hust.cc/gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-comment/plugin.js" tppabs="https://sort.hust.cc/gitbook/gitbook-plugin-comment/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js" tppabs="https://sort.hust.cc/gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js" tppabs="https://sort.hust.cc/gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js" tppabs="https://sort.hust.cc/gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js" tppabs="https://sort.hust.cc/gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js" tppabs="https://sort.hust.cc/gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js" tppabs="https://sort.hust.cc/gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    
+<div><script style="display: none;" type="application/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57505611-7', 'auto', {name: 'microcdn'});
+  ga('https://sort.hust.cc/microcdn.send', 'pageview');
+
+  var _cdn_prev_loc = window.location.pathname;
+  window.setInterval(function () {
+    if (window.location.pathname !== _cdn_prev_loc) {
+      _cdn_prev_loc = window.location.pathname;
+      ga('https://sort.hust.cc/microcdn.send', 'pageview');
+    }
+  }, 100);
+
+</script></div>
+</body>
+</html>
+
