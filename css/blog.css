@@ -154,7 +154,7 @@ h6, .h6 {
 }
  
 /*
- * music and video		<!--自己加-->
+ * music and video and wechat		<!--自己加-->
  */ 
  
 .music{
@@ -163,7 +163,9 @@ h6, .h6 {
 .video{
 	text-align: center;
 } 
-
+.wechat{
+	text-align: center;
+}
 
 
 /*
